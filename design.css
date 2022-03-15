@@ -1,0 +1,125 @@
+@charset "utf-8";
+
+/*-------------国語のCSS-----------------------------------*/
+/*-------------全体の設定始まり------------------------------*/
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #333;
+    /*文字色の設定*/
+    font-size: 15px;
+    /*文字サイズの設定*/
+    line-height: 2;
+    background-image: url(img/国語.jpg);
+    /*背景画像の設定*/
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    backdrop-filter: blur(5px);
+    /*背景のぼかし*/
+}
+
+img {
+    width: 350px;
+    /*文字画像の横幅*/
+    vertical-align: bottom;
+}
+
+p,
+h1 {
+    margin-top: 0;
+}
+
+/*----------------全体の設定終わり----------------------*/
+/*----------------headerの設定始まり--------------------*/
+
+header {
+    width: 960px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+.logo {
+    float: left;
+    margin-top: 50px;
+    height: 30%;
+    width: 10%;
+}
+
+.icon::before {
+    content: "";
+    padding-right: 10px;
+    border-left: 7px solid #9cd4a4;
+}
+
+.nav {
+    float: right;
+    margin-top: 60px;
+}
+
+.nav li {
+    float: left;
+    margin: 0 20px;
+    font-size: 20px;
+    list-style: none;
+    font-family: 'Bitter', serif;
+}
+
+.nav li a {
+    color: #000000;
+}
+
+.nav li a:hover {
+    border-bottom: 2px solid #000;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+/*----------------headerの設定終わり--------------------*/
+/*----------------weapの設定始まり----------------------*/
+#wrap {
+    clear: both;
+    background: #000;
+    background: transparent;
+    margin-top: 220px;
+    padding: 35px 0;
+}
+
+.icon::before {
+    content: "";
+    padding-right: 10px;
+    border-left: 7px solid #9cd4a4;
+}
+
+.content {
+    width: 960px;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+
+.content h1 {
+    line-height: 1;
+    color: #000;
+    font-family: 'Bitter', serif;
+    font-size: 36px;
+    border-bottom: solid 1px #cccccc;
+    line-height: 1;
+    margin-bottom: 50px;
+    border: none;
+}
+
+p {
+    font-size: 16px;
+    color: #000;
+}
+
+/*----------------weapの設定終わり----------------------*/
+/*----------------国語のCSSおわり-----------------------*/
