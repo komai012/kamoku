@@ -31,12 +31,6 @@ ul {
     width: 10%;
 }
 
-.icon::before {
-    content: "";
-    padding-right: 10px;
-    border-left: 7px solid #9cd4a4;
-}
-
 .nav {
     float: right;
     margin-top: 60px;
@@ -68,12 +62,6 @@ ul {
     padding: 35px 0;
 }
 
-.icon::before {
-    content: "";
-    padding-right: 10px;
-    border-left: 7px solid #9cd4a4;
-}
-
 .content {
     width: 960px;
     margin: 0 auto;
@@ -99,10 +87,9 @@ p {
 /*----------------全体の設定終わり----------------------*/
 
 /*-------------トップページのCSS---------------------------*/
-#top{
+#top {
     margin: 0;
     padding: 0;
-    background-color: #fff;
     color: #333;
     /*文字色の設定*/
     font-size: 15px;
@@ -116,13 +103,22 @@ p {
     background-size: cover;
     backdrop-filter: blur(5px);
     /*背景のぼかし*/
+    
+}
+#wrep0{
+    clear: both;
+    background: #000;
+    background: transparent;
+    margin-top: 220px;
+    padding: 35px 0;
+    background-color: #FFFFCC;
 }
 /*-------------トップページのCSS終わり-----------------------*/
 /*-------------国語のCSS-----------------------------------*/
-#koku{
+#koku {
     margin: 0;
     padding: 0;
-    background-color: #fff;
+    background-color: #CCFFFF;
     color: #333;
     /*文字色の設定*/
     font-size: 15px;
@@ -137,6 +133,25 @@ p {
     backdrop-filter: blur(5px);
     /*背景のぼかし*/
 }
+
+#wrap1 {
+    clear: both;
+    background: #000;
+    background: transparent;
+    margin-top: 220px;
+    padding: 35px 0;
+    background-color: #FFFFCC;
+}
+
+.kokuicon::before {
+    content: "";
+    padding-right: 10px;
+    border-left: 7px solid #990033;
+}
+
+.menu {
+    text-align: center;
+    list-style: none;
+}
+
 /*----------------国語のCSSおわり-----------------------*/
-
-
