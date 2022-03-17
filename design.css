@@ -156,6 +156,22 @@ p {
 
 /*----------------国語のCSSおわり-----------------------*/
 /*----------------数学のCSS----------------------------*/
+#su{
+    margin: 0;
+    padding: 0;
+    background-color: #CCFFFF;
+    color: #333;
+    /*文字色の設定*/
+    font-size: 15px;
+    /*文字サイズの設定*/
+    line-height: 2;
+    background-image: url(img/数学.jpg);
+    /*背景画像の設定*/
+    
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
 
 /*----------------数学のCSS終わり----------------------*/
 
